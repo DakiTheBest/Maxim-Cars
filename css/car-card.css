@@ -1,18 +1,23 @@
-UL {
+ul {
   display: flex;
   justify-content: space-around;
 }
 
 .car-card {
-  margin: 2rem;
+  margin: 0;
   text-align: center;
   list-style: none;
   background-color: rgb(226, 160, 80);
   border-radius: 8px;
   max-width: 24rem;
-  max-height: 30rem;
-  padding: 2rem;
+  max-height: 38rem;
+  padding: 1.5rem;
   overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+.car-card:hover {
+  transform: scale(1.05);
 }
 
 .car-card img {
@@ -26,4 +31,22 @@ UL {
   color: rgb(144, 196, 68);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  max-width: 20%;
+  color: black;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: rgb(255, 145, 0);
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+a:hover {
+  background-color: rgb(121, 66, 0);
+  color: white;
+  transform: scale(1.1);
 }
