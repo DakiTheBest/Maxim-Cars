@@ -1,0 +1,9 @@
+.car-card {
+    margin: 10rem auto;
+    text-align: center;
+}
+
+.car-card img{
+    max-width: 40%;
+    max-height: 20%;
+}
