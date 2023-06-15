@@ -1,0 +1,34 @@
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+}
+
+img {
+  margin: 1rem;
+  max-width: 20rem;
+  max-height: 30rem;
+  border-radius: 8px;
+  border: 2px solid rgb(255, 255, 255);
+  transition: transform 0.5s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+.condition {
+  color: rgb(144, 196, 68);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.info {
+    margin: auto;
+    padding: 1rem;
+    background-color: rgb(226, 160, 80);
+    max-width: 50%;
+}
