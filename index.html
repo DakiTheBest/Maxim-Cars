@@ -4,32 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maksim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="car-card.css" />
   </head>
   <body>
     <header>
       <h1>Maxim's Cars</h1>
-      <p>Great and Affordable</p>
+      <p>Great and Affordable!</p>
     </header>
     <main>
-      <div class="car-card">
-        <img src="/images/car1-1.jpg" alt="Nissan note">
-        <h1>Nissan Note</h1>
-        <p>Age: 2009</p>
-        <p>Transmission: <strong>Manual</strong></p>
-        <p>Condition: <strong>Excellent</strong></p>
-        <button>Buy Now</button>
-      </div>
-      <div class="car-card">
-        <img src="/images/car2-1.jpg" alt="Peugeot 308">
-        <h1>Peugeot 308</h1>
-        <p>Age: 2012</p>
-        <p>Transmission: <strong>Automatic</strong></p>
-        <p>Condition: <strong>Excellent</strong></p>
-        <button>Buy Now</button>
-      </div>
+      <ul>
+        <li class="car-card">
+          <img src="/images/car1-1.jpg" alt="Nissan note" />
+          <h1>Nissan Note</h1>
+          <p>Age: 2009</p>
+          <p>Transmission: <strong>Manual</strong></p>
+          <p>Condition: <strong class="condition">Excellent</strong></p>
+          <button>Buy Now</button>
+        </li>
+        <li class="car-card">
+          <img src="/images/car2-1.jpg" alt="Peugeot 308" />
+          <h1>Peugeot 308</h1>
+          <p>Age: 2012</p>
+          <p>Transmission: <strong>Automatic</strong></p>
+          <p>Condition: <strong class="condition">Excellent</strong></p>
+          <button>Buy Now</button>
+        </li>
+      </ul>
     </main>
-    <footer></footer>
   </body>
 </html>

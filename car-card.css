@@ -1,9 +1,29 @@
-.car-card {
-    margin: 10rem auto;
-    text-align: center;
+UL {
+  display: flex;
+  justify-content: space-around;
 }
 
-.car-card img{
-    max-width: 40%;
-    max-height: 20%;
+.car-card {
+  margin: 2rem;
+  text-align: center;
+  list-style: none;
+  background-color: rgb(226, 160, 80);
+  border-radius: 8px;
+  max-width: 24rem;
+  max-height: 30rem;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.car-card img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  image-rendering: auto;
+}
+
+.condition {
+  color: rgb(144, 196, 68);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
